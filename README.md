@@ -2,17 +2,17 @@
 
 [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
 
-[david-dm-url]:https://david-dm.org/satazor/eslint-config
-[david-dm-image]:https://img.shields.io/david/satazor/eslint-config.svg
-[david-dm-dev-url]:https://david-dm.org/satazor/eslint-config#info=devDependencies
-[david-dm-dev-image]:https://img.shields.io/david/dev/satazor/eslint-config.svg
+[david-dm-url]:https://david-dm.org/atduarte/eslint-config
+[david-dm-image]:https://img.shields.io/david/atduarte/eslint-config.svg
+[david-dm-dev-url]:https://david-dm.org/atduarte/eslint-config#info=devDependencies
+[david-dm-dev-image]:https://img.shields.io/david/dev/atduarte/eslint-config.svg
 
 My own [eslint](http://eslint.org/) configurations.
 
 
 ## Installation
 
-`$ npm install --save-dev @satazor/eslint-config`
+`$ npm install --save-dev @atduarte/eslint-config`
 
 
 ## Usage
@@ -43,10 +43,10 @@ Cutting edge ES6 with modules in the browser, using react:
 {
     "root": true,
     "extends": [
-        "@satazor/eslint-config/es6",
-        "@satazor/eslint-config/addons/es6-modules",
-        "@satazor/eslint-config/addons/browser",
-        "@satazor/eslint-config/addons/react"
+        "@atduarte/eslint-config/es6",
+        "@atduarte/eslint-config/addons/es6-modules",
+        "@atduarte/eslint-config/addons/browser",
+        "@atduarte/eslint-config/addons/react"
     ]
 }
 ```
@@ -57,9 +57,9 @@ Cutting edge ES6 with modules in NodeJS (requires babel or similar):
 {
     "root": true,
     "extends": [
-        "@satazor/eslint-config/es6",
-        "@satazor/eslint-config/addons/es6-modules",
-        "@satazor/eslint-config/addons/node"
+        "@atduarte/eslint-config/es6",
+        "@atduarte/eslint-config/addons/es6-modules",
+        "@atduarte/eslint-config/addons/node"
     ]
 }
 ```
@@ -70,8 +70,8 @@ Use ES6 in NodeJS without any transpiler:
 {
     "root": true,
     "extends": [
-        "@satazor/eslint-config/es6",
-        "@satazor/eslint-config/addons/node"
+        "@atduarte/eslint-config/es6",
+        "@atduarte/eslint-config/addons/node"
     ]
 }
 ```
@@ -82,9 +82,9 @@ Use ES6 in NodeJS without any transpiler:
 {
     "root": true,
     "extends": [
-        "@satazor/eslint-config/es6",
-        "@satazor/eslint-config/addons/node"
-        "@satazor/eslint-config/addons/node-v4-es6"
+        "@atduarte/eslint-config/es6",
+        "@atduarte/eslint-config/addons/node"
+        "@atduarte/eslint-config/addons/node-v4-es6"
     ]
 }
 ```
@@ -96,8 +96,8 @@ Good old ES5 in NodeJS:
 {
     "root": true,
     "extends": [
-        "@satazor/eslint-config/es5",
-        "@satazor/eslint-config/addons/node"
+        "@atduarte/eslint-config/es5",
+        "@atduarte/eslint-config/addons/node"
     ]
 }
 ```
