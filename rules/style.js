@@ -60,7 +60,7 @@ module.exports = {
         // disallow the omission of parentheses when invoking a constructor with no arguments
         'new-parens': 2,
         // allow/disallow an empty newline after var statement
-        'newline-after-var': [2, 'always'],
+        'newline-after-var': 0,
         // require newline before return statement
         'newline-before-return': 0,
         // enforce newline after each call when chaining the calls
@@ -102,7 +102,7 @@ module.exports = {
         // disallow whitespace before properties
         'no-whitespace-before-property': 2,
         // require padding inside curly braces
-        'object-curly-spacing': [2, 'always'],
+        'object-curly-spacing': ['warn', 'never'],
         // allow just one var statement per function
         'one-var': [2, 'never'],
         // require or disallow an newline around variable declarations
